@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#light {
+    background-color: #f8304e !important;
+    color: #fff !important;
+}
+
+#prod-name {
+  margin-left: 5;
+}
+
+#logo {
+  height: 5rem
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-top: 5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #f8304e  !important;
+  color: #fff !important;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.nav-link {
+  padding-right: 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.download {
+  margin-right: 1rem
+}
+/* Buttons */
+
+.download-buttton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.cap {
+  width: 20%;
+}
+
+.backpack {
+  
+  width: 40%;
+  transform: rotate(25deg);
+  position: relative;
+
+  z-index: 1
+  
+}
+
+.shirt {
+    
+  width: 40%;
+  transform: rotate(-15deg);
+  position: relative;
+  
+  z-index: 0
+}
+
+.icn {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icn:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonial Secion */
+
+#testimonials {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #ef8172;
+  
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price {
+  margin-bottom: 3.6rem;
+}
+
+/* Call to Action Section */
+
+
+
+/* Footer */
+
+.social-icons {
+  margin: 20px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px){
+  .iphone {
+      position: static;
+      transform: rotate(0deg);
+  }
+
+  #title {
+      text-align: center;
+  }
+}
+
+.row {
+  margin-right: 0 !important;
+}
