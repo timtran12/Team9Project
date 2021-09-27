@@ -27,8 +27,8 @@ function AppNav () {
                 
                 
                 </Nav>
-                <span class="Login/Signup">
-                    <Nav.Link className='justify-content-end' href="" style={{ color: 'white' }}>Login/Signup</Nav.Link>
+                <span class="Login">
+                    <Nav.Link className='justify-content-end' href="Login" style={{ color: 'white' }}>Login/Signup</Nav.Link>
                 </span>
             </Navbar.Collapse>
             </Container>

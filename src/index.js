@@ -6,6 +6,9 @@ import App from './App';
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/ContactUs'
+import Login from './components/Login'
+import History from './components/History'
+import openeditor from './components/Login'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -16,6 +19,9 @@ ReactDOM.render(
 
         <Route  path = '/About' exact component={About} />
         <Route path = '/ContactUs' exact component={Contact} />
+        <Route path = '/Login' exact component={Login} />
+        <Route path = '/Open Image Editor' exact component={openeditor} />
+        <Route path = 'History' exact component={History} />
       </Switch>
     </Router>
     <App />

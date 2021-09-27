@@ -18,7 +18,7 @@ import '../App.css';
                     <div class="col-lg-6">
                     <h1 class="big-heading">Design. <br />Innovate. <br />Create.</h1>
                     <button type="button" class="btn btn-lg btn-dark download-buttton"><i className="fa fa-apple download"></i>
-                        Download</button>
+                    Download</button>
                     <button type="button" class="btn btn-lg btn-outline-light download-buttton"><i className="fa fa-google download"></i>
                     Download</button>
                     </div>
