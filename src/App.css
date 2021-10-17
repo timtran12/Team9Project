@@ -269,3 +269,10 @@ p {
 .row {
   margin-right: 0 !important;
 }
+
+.toggleButton {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+
+}

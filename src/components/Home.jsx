@@ -16,7 +16,7 @@ import '../App.css';
 
                 <div class="row">
                     <div class="col-lg-6">
-                    <h1 class="big-heading">Design. <br />Innovate. <br />Create.</h1>
+                    <h1 class="big-heading" id="">Design. <br />Innovate. <br />Create.</h1>
                     <button type="button" class="btn btn-lg btn-dark download-buttton"><i className="fa fa-apple download"></i>
                     Download</button>
                     <button type="button" class="btn btn-lg btn-outline-light download-buttton"><i className="fa fa-google download"></i>
@@ -31,7 +31,7 @@ import '../App.css';
                 </div>
             </section>
 
-            <section class="white-section"id="features">
+            <section id="features">
 
                 <div class="container-fluid">
                 <div class="row">
@@ -68,7 +68,7 @@ import '../App.css';
 
 
 
-        <footer class="white-section" id="footer">
+        <footer id="footer">
             <div class="container-fluid">
             <i class="social-icons fa fa-twitter"></i>
             <i class="social-icons fa fa-facebook-f"></i>
