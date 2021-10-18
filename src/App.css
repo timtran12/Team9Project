@@ -276,3 +276,14 @@ p {
   right: 40px;
 
 }
+
+iframe {
+  text-align: right; 
+  border: 0; 
+  height: 75rem; 
+  display: inline !important; 
+  width: 145rem; 
+  position: fixed; 
+  top: 6.6rem; 
+  right: 0;
+}
