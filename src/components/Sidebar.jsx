@@ -10,7 +10,7 @@ function Sidebar() {
   return (
     <>
       
-      <ProSidebar style={{zIndex: "-1"}}>
+      <ProSidebar style={{zIndex: "0"}}>
         <Menu iconShape="square">
           <MenuItem>
             Dashboard
