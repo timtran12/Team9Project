@@ -26,6 +26,7 @@ function getInitialTheme(){
   return savedTheme ? JSON.parse(savedTheme) : { mode: 'light' }
 }
 
+// Adds dark mode button
 function App() {
   const [theme, setTheme] = useState(getInitialTheme)
     useEffect(()=>{

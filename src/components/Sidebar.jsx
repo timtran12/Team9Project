@@ -11,10 +11,14 @@ function Sidebar() {
     <>
       
       <ProSidebar style={{zIndex: "0"}}>
-        <Menu iconShape="square">
+        <Menu iconShape="rectangle">
           <MenuItem>
             Dashboard
             <Link to="./dashboard" />
+          </MenuItem> 
+          <MenuItem>
+            Preview
+            <Link to="./preview" />
           </MenuItem> 
 
           <MenuItem>History</MenuItem>

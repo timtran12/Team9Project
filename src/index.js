@@ -11,7 +11,9 @@ import History from './components/History'
 import openeditor from './components/Login'
 import reportWebVitals from './reportWebVitals'
 import Dashboard from './components/dashboard';
+import Preview from './components/preview';
 
+// Switches render page to other clicked or redirected page (ie. clicked on daskboard on sidenav and view renders the Dashboard view)
 ReactDOM.render(
   <React.StrictMode>
     <Router>
@@ -22,6 +24,7 @@ ReactDOM.render(
         <Route path = '/ContactUs' exact component={Contact} />
         <Route path = '/Login' exact component={Login} />
         <Route path = '/Dashboard' exact component={Dashboard} />
+        <Route path = '/Preview' exact component={Preview} />
         <Route path = '/Open Image Editor' exact component={openeditor} />
         <Route path = 'History' exact component={History} />
       </Switch>

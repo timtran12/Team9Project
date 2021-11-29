@@ -287,3 +287,7 @@ iframe {
   top: 6.6rem; 
   right: 0;
 }
+
+.cell .shrink .ng-tns-c483-6 {
+  display: none !important;
+}

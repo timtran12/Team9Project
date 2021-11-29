@@ -12,3 +12,7 @@ code {
     monospace;
 }
 
+.cell .shrink .ng-tns-c483-6 {
+  display: none !important;
+}
+
